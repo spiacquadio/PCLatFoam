@@ -1,0 +1,20 @@
+EXE_INC = \
+	-I. \
+	-I$(LIB_SRC)/MomentumTransportModels/momentumTransportModels/lnInclude \
+	-I$(LIB_SRC)/MomentumTransportModels/incompressible/lnInclude \
+	-I$(LIB_SRC)/transportModels \
+	-I$(LIB_SRC)/transportModels/singlePhaseTransportModel \
+	-I$(LIB_SRC)/sampling/lnInclude \
+	-I$(LIB_SRC)/meshTools/lnInclude \
+	-I$(LIB_SRC)/finiteVolume/lnInclude \
+
+EXE_LIBS = \
+	-lmomentumTransportModels \
+	-lincompressibleMomentumTransportModels \
+	-ltransportModels \
+	-lfiniteVolume \
+	-lfvModels \
+	-lfvConstraints \
+	-ltopoChangerFvMesh \
+	-lsampling \
+	-lmeshTools
