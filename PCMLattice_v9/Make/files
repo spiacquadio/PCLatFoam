@@ -1,3 +1,0 @@
-PCMLatticeFinal.C
-
-EXE = $(FOAM_USER_APPBIN)/PCMLatticeFinal
